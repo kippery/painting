@@ -1,0 +1,214 @@
+<link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/core-styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/services.css" /> 
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <!-- <img src="images/kippery-black.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async"> -->
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="services.html" class="cs-li-link cs-active">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="reviews.html" class="cs-li-link">
+                            Reviews
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1402">
+    <div class="cs-container">
+        <span class="cs-int-title">Our Services</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="" class="cs-link cs-active">Services</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="images\paint-cans3.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="images\paint-cans3.webp">
+        <img decoding="async" src="images\paint-cans3.webp" alt="people laughing" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+                                
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+================================================= -->
+
+<section id="content-page-1402">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/on-computer2.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/on-computer2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/on-computer2.jpg" alt="people" width="542" height="728">
+                </picture>
+                <div class="cs-box">
+                    <img class="cs-box-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg" alt="people" width="60" height="60">
+                    <span class="cs-desc">
+                        We’ve Over 10 Years of Experience
+                    </span>
+                </div>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trophy.svg" alt="icon" width="32" height="32">
+                        Award-Winning Service
+                    </h3>
+                    <p class="cs-item-text">
+                        Best of Chatham County 2020
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circle-check.svg" alt="icon" width="32" height="32">
+                        Quality Paint
+                    </h3>
+                    <p class="cs-item-text">
+                        We use only use the best Behr paint has to offer.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title">Interior Brilliance and <span class="cs-color">Exterior Protection</span></h1>
+            <p>
+                Welcome to Kippery Paint Pros, your premier destination for top-quality painting services that elevate the aesthetics of your interiors and protect the exteriors of your property. Our skilled team combines expertise, premium materials, and a commitment to excellence to bring your vision to life.
+            </p>
+            <h2>Interior Painting</h2>
+            <p>
+                Revitalize your living spaces with our expert interior painting services. At Kippery Paint Pros, we prioritize precision and perfection, using industry-leading techniques and premium paints. From color consultations to the final strokes, our team ensures a seamless process that transforms your home.
+            </p>
+            <h3>Our Process</h3>
+                <ul id="list-825" class="cs-ul">
+                    <li class="cs-li">
+                        <span class="cs-number">1</span>
+                        <div>
+                            <b>Consultation and Color Selection:</b> We begin with a personalized consultation to understand your style and preferences. Our experts guide you through a wide array of colors, helping you choose the perfect palette for your space.
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <span class="cs-number">2</span>
+                        <div>
+                            <b>Surface Preparation:</b> Before the first stroke, we ensure a smooth canvas. This includes repairing any imperfections, sanding, and priming the surfaces for optimal paint adhesion.
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <span class="cs-number">3</span>
+                        <div>
+                            <b>Premium Painting:</b> Our experienced team employs industry-best practices, using premium paints and tools to guarantee a lasting and vibrant finish. We pay meticulous attention to detail, ensuring that every corner reflects your personality.
+                        </div>>
+                    </li>
+                    <li class="cs-li">
+                        <span class="cs-number">4</span>
+                        <div>
+                            <b>Final Inspection:</b> The job isn't complete until we've conducted a thorough inspection. We ensure that every inch meets our high standards and your expectations, leaving you with a beautifully painted interior.
+                        </div>
+                    </li>
+                </ul>
+            <h2>Exterior Painting</h2>
+            <p>
+                Your home's exterior is its first impression, and at Kippery Paint Pros, we're here to make it a lasting one. Our exterior painting services are designed to not only enhance curb appeal but also provide protection against the elements. From residential homes to commercial properties, our team is equipped to handle projects of any scale.
+            </p>
+            <h3>Our Process</h3>
+                <ul id="list-825" class="cs-ul">
+                    <li class="cs-li">
+                        <span class="cs-number">1</span>
+                        <div>
+                            <b>Evaluation and Estimate:</b> We start with a comprehensive evaluation of your exterior, identifying any repairs or preparation needed. You'll receive a detailed estimate, transparently outlining the scope of work.
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <span class="cs-number">2</span>
+                        <div>
+                            <b>Surface Preparation:</b> To ensure longevity, we address any peeling paint, cracks, or other surface issues. Proper preparation is key to achieving a durable and appealing exterior.
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <span class="cs-number">3</span>
+                        <div>
+                            <b>Weather-Resistant Coating:</b> We use high-quality, weather-resistant paints to shield your home from the elements. Our team applies coatings with precision, ensuring a uniform and protective finish.
+                        </div>
+                    </li>
+                    <li class="cs-li">
+                        <span class="cs-number">4</span>
+                        <div>
+                            <b>Cleanup and Inspection:</b> Once the project is complete, we leave your property spotless. Our final inspection guarantees that the exterior not only looks fantastic but is also safeguarded against the wear and tear of time.
+                        </div>
+                    </li>
+                </ul>
+            <p>
+                Choose Kippery Paint Pros for a seamless and transformative painting experience. Let us elevate your interiors and protect your exteriors with our top-notch painting services.
+            </p>    
+        </div>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>

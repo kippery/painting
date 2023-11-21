@@ -1,0 +1,472 @@
+<link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/core-styles.css" /> 
+<link rel="preload" href="fonts\archivo-v19-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet"> -->
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <!-- <img src="images/kippery-black.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async"> -->
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="services.html" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="reviews.html" class="cs-li-link">
+                            Reviews
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--            Side By Side Reverse              -->
+<!-- ============================================ -->
+
+<section id="sbsr-599">
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="images/white-and-blue-living-room-m.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="images/white-and-blue-living-room.jpg">
+        <img decoding="async" src="images/white-and-blue-living-room.jpg" alt="room" width="960" height="796">
+    </picture>
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Who We Are</span>
+            <h2 class="cs-title">House Painting Contractors For Hinesville </h2>
+            <p class="cs-text">
+                At Kippery Paint Pros, we're here to make your painting dreams a reality. Whether you're looking to refresh the interior of your home, give your business a professional facelift, or revamp your outdoor space, we're the team you can trust. Get in touch with us today to discuss your painting project, request a free estimate, and take the first step toward a more colorful and vibrant future for your spaces. Your satisfaction is our ultimate goal, and we can't wait to bring our passion for painting to your doorstep.
+            </p>
+            <!-- <p class="cs-text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p> -->
+            <a href="" class="cs-button-solid">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Services                   -->
+<!-- ============================================ -->
+
+<section id="services-597">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Services</span>
+            <h2 class="cs-title">House Painting Services in Hinesville, GA</h2>
+            <p class="cs-text">
+                Kippery Paint Pros is your premier destination for a wide range of expert painting services. Whether you're looking to transform your home or business, our team is dedicated to delivering top-notch results.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door-red.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Exterior Home Painting</h3>
+                <p class="cs-item-text">
+                    Protect and enhance your property's curb appeal with our exterior painting services. Our skilled painters can revitalize your building's appearance and safeguard it from the elements.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door-red.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Interior Home Painting</h3>
+                <p class="cs-item-text">
+                    We breathe new life into your interiors, creating the perfect atmosphere that suits your style and preferences. From single rooms to entire homes, we bring your vision to life with precision and care.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Services/door-red.svg" alt="icon" width="61" height="58" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Pressure Washing</h3>
+                <p class="cs-item-text">
+                    Our pressure washing services are designed to  restore the pristine beauty of your spaces, enhance curb appeal, and contribute to the longevity of your property. 
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+         
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-1152">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">Our Photo Gallery</h2>
+        </div>
+        <div class="cs-gallery">
+            <!--Picture 1-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/beige-house.jpg">
+                <source media="(min-width: 601px)" srcset="images/beige-house.jpg">
+                <img loading="lazy" decoding="async" src="images/beige-house.jpg" alt="gallery" width="272" height="320">
+            </picture>
+            <!--Picture 2-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/light-blue-house.jpg">
+                <source media="(min-width: 601px)" srcset="images/light-blue-house.jpg">
+                <img loading="lazy" decoding="async" src="images/light-blue-house.jpg" alt="gallery" width="272" height="320">
+            </picture>
+            <!--Picture 3-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/gray-house.jpg">
+                <source media="(min-width: 601px)" srcset="images/gray-house.jpg">
+                <img loading="lazy" decoding="async" src="images/gray-house.jpg" alt="gallery" width="272" height="320">
+            </picture>
+            <!--Picture 4-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/white-living-room.jpg">
+                <source media="(min-width: 601px)" srcset="images/white-living-room.jpg">
+                <img loading="lazy" decoding="async" src="images/white-living-room.jpg" alt="gallery" width="272" height="320">
+            </picture>
+            <!--Picture 5-->
+            <picture class="cs-image">
+                <source media="(max-width: 600px)" srcset="images/pink-interior.jpg">
+                <source media="(min-width: 601px)" srcset="images/pink-interior.jpg">
+                <img loading="lazy" decoding="async" src="images/pink-interior.jpg" alt="gallery" width="272" height="320">
+            </picture>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                  Why Choose                  -->
+<!-- ============================================ -->
+
+<section id="why-choose-507">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Sustainable Overhead</span>
+                <h2 class="cs-title">Why Choose Us</h2>
+            </div>
+            <!-- <p class="cs-text">
+                Elementum sagittis vitae et leo duis ut diam. In nibh mauris cursus mattis molestie a iaculis at
+            </p> -->
+        </div>
+        <div class="cs-flex-group">
+            <!--Stats List-->
+            <ul class="cs-card-group">
+                <li class="cs-stats-item">
+                    <span class="cs-number">200+</span>
+                    <span class="cs-desc">Homes Repainted</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">4.9/5</span>
+                    <span class="cs-desc">Rating on Google</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">10</span>
+                    <span class="cs-desc">Years in Business</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">100%</span>
+                    <span class="cs-desc">Committed to Your Vision</span>
+                </li>
+            </ul>
+            <!--Qualities List-->
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <span class="cs-li-number">01</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Experienced Professionals</h3>
+                        <p class="cs-li-text">
+                            Our team of highly skilled and experienced painters has a proven track record of delivering exceptional results. With years of expertise under our belts, we're well-equipped to handle any painting project, big or small.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">02</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Quality Workmanship</h3>
+                        <p class="cs-li-text">
+                            We take immense pride in our work, and it shows in the quality of our craftsmanship. We use premium paints, tools, and techniques to ensure a flawless finish that enhances the beauty of your home.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">03</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Personalized Service</h3>
+                        <p class="cs-li-text">
+                            Every home is unique, and we treat it as such. We offer customized solutions tailored to your specific needs and preferences. Our team will work closely with you to understand your vision and bring it to life.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+                                
+<!-- ============================================ -->
+<!--                 Meet The Team                -->
+<!-- ============================================ -->
+
+<section id="meet-team-220">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Meet The Team</span>
+            <h2 class="cs-title">The People Behind Kippery</h2>
+            <p class="cs-text">
+                At Kippery Paint Pros, we take pride in our exceptional team of dedicated professionals who bring creativity, expertise, and a passion for perfection to every project. Get to know the individuals behind our success:
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/member1.jpg" alt="portrait" width="275" height="132">
+                </picture>
+                <span class="cs-name">John Doe</span>
+                <span class="cs-job-title">Founder</span>
+                <!-- Social Flexbox -->
+                <div class="cs-social">
+                    <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/twitter.svg" alt="twitter" width="15" height="13">
+                    </a>
+                    <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/linkedin.svg" alt="linkedin" width="17" height="16">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/member1.jpg" alt="portrait" width="275" height="132">
+                </picture>
+                <span class="cs-name">Rusty Shackleford</span>
+                <span class="cs-job-title">CMO</span>
+                <!-- Social Flexbox -->
+                <div class="cs-social">
+                    <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/twitter.svg" alt="twitter" width="15" height="13">
+                    </a>
+                    <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/linkedin.svg" alt="linkedin" width="17" height="16">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/member1.jpg" alt="portrait" width="275" height="132">
+                </picture>
+                <span class="cs-name">Joe Shmo</span>
+                <span class="cs-job-title">CFO</span>
+                <!-- Social Flexbox -->
+                <div class="cs-social">
+                    <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/twitter.svg" alt="twitter" width="15" height="13">
+                    </a>
+                    <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Meet-Team/linkedin.svg" alt="linkedin" width="17" height="16">
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">Read More</a>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+<section id="faq-595">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="images/kitchen-with-chairs.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="images/kitchen-with-chairs.jpg">
+            <img loading="lazy" decoding="async" src="images/kitchen-with-chairs.jpg" alt="kitchen" width="373" height="550">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Asked questions</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much are house painting services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Some cleaning plans require a minimum commitment term. Cancelling your plan before the minimum term is complete will result in a $99 fee. If you want to learn more information about how to cancel, please inbox us.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What is your plan cancellation policy?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How long should a house painting take?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How much are house painting services?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit convallis nunc neque, bibendum pulvinar vitae commodo velit. Proin diam tortor sed malesuada nunc, habitant. Dignissim ipsum porta enim, magna urna, quam. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-591">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Trusted by Hundreds of People & Companies</h2>
+            <p class="cs-text">
+                At Kippery Paint Pros, we take immense pride in our work, and our ultimate goal is customer satisfaction. Don't just take our word for it; listen to what our valued customers have to say about their experiences with us.</p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/yellow-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Loving the color!</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?
+                </p>
+                <span class="cs-name">Daniel</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/yellow-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Affordable</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?
+                </p>
+                <span class="cs-name">Daniel</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/yellow-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Professional and the best!</h3>
+                <p class="cs-item-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?
+                </p>
+                <span class="cs-name">Daniel</span>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-587">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="images/white-kitchen.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="images/white-kitchen.jpg">
+            <img loading="lazy" decoding="async" src="images/white-kitchen.jpg" alt="room" width="841" height="877">
+        </picture>
+        <div class="cs-right">
+            <div class="cs-content">
+                <span class="cs-topper">Contact Us</span>
+                <h2 class="cs-title">Get In Touch</h2>
+                <p class="cs-text">
+                    Got a question? We'd love to hear from you! Fill out the form below and we will get back to you as soon as we can!</p>
+            </div>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-587" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name
+                    <input class="cs-input" required type="text" id="name-587" name="name" placeholder="Name">
+                </label>
+                <label class="cs-label">
+                    Phone
+                    <input class="cs-input" required type="text" id="phone-587" name="phone" placeholder="Phone">
+                </label>
+                <label class="cs-label">
+                    Email
+                    <input class="cs-input" required type="text" id="email-587" name="email" placeholder="Email">
+                </label>
+                <label class="cs-label">
+                    How did you hear about us?
+                    <input class="cs-input" required type="text" id="hear-587" name="heat" placeholder="Google">
+                </label>
+                <label class="cs-label cs-message">
+                    Message
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-587" placeholder="Write message..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+                                
+                                
+<script src="animation.js">
+
+</script>   

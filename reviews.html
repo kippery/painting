@@ -1,0 +1,135 @@
+<link rel="stylesheet" type="text/css" href="styles/styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/core-styles.css" /> 
+<link rel="stylesheet" type="text/css" href="styles/reviews.css" /> 
+
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <!-- <img src="images/kippery-black.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async"> -->
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="services.html" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="reviews.html" class="cs-li-link cs-active">
+                            Reviews
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="contact.html" class="cs-li-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-353">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Reviews</span>
+            <h2 class="cs-title">Trusted by Hundreds of People & Companies</h2>
+            <p class="cs-text">
+                At Kippery Paint Pros, we take immense pride in turning visions into vibrant realities. Take a moment to read what our valued clients have to say about their painting experiences.</p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-quote" aria-hidden="true" src="images/quote-blue.svg" decoding="async" alt="quote icon" width="40" height="33">
+                <p class="cs-review">
+                    "Kippery Paint Pros went above and beyond to transform our home. The attention to detail, professionalism, and the final result exceeded our expectations. We now have a home that truly reflects our style. Highly recommended!"
+                </p>
+                <span class="cs-name">John Marin</span>
+                <span class="cs-job">Co-Owner, Marin & Marin Law</span>
+                <!--Person Image in PNG format-->
+                <!--To remove background from image, use https://www.remove.bg/-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/person1.png">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/person1.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/person1.png" alt="person" width="198" height="294">
+                </picture>
+            </li>
+            <li class="cs-item">
+                <img class="cs-quote" aria-hidden="true" src="images/quote-blue.svg" decoding="async" alt="quote icon" width="40" height="33">
+                <!-- source for light blue quote: https://csimg.nyc3.digitaloceanspaces.com/Reviews/quote-blue.svg -->
+                <p class="cs-review">
+                    "I needed a quick turnaround for a painting project, and Kippery Paint Pros delivered. The team was fast, efficient, and the end result was flawless. They managed to bring our office space to life with minimal disruption. Impressive work!"
+                </p>
+                <span class="cs-name">Robert Henrich</span>
+                <span class="cs-job">CEO, HK Traders</span>
+                <!--Person Image in PNG format-->
+                <picture class="cs-image">
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/person2.png">
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Reviews/person2.png">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/person2.png" alt="person" width="211" height="313">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                          
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">Get It Done With Us Today</h2>
+            <p class="cs-text">
+                Ready to get started? Schedule your consultation, and let Kippery Paint Pros transform your space into a masterpiece of color and style!</p>
+            <a href="" class="cs-button-solid">Get A Free Quote</a>
+        </div>
+    </div>
+    <!-- Background Image-->
+    <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/CTA/cabinets.jpg" alt="cabinets" width="1920" height="1280" aria-hidden="true">
+    </picture>
+</section>
