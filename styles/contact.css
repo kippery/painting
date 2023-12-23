@@ -151,7 +151,6 @@
     #contact-587 {
         padding: var(--sectionPadding);
         position: relative;
-        padding-top: 150px;
     }
     #contact-587 .cs-container {
         flex-direction: row;

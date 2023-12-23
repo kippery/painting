@@ -1714,3 +1714,240 @@
 svg {
     fill: rgb(77, 10, 235);
   } */
+
+  /*-- -------------------------- -->
+<---           Footer           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #cs-footer-104 {
+        /* 40px - 100px top and bottom */
+        padding: clamp(2.5rem, 7.9vw, 6.25rem) 1rem;
+        /* 40px - 50px */
+        padding-bottom: clamp(2.5rem, 7.9vw, 3.125rem);
+        background-color: #14142b;
+    }
+    #cs-footer-104 .cs-container {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+    }
+    #cs-footer-104 .cs-ul {
+        /* 40px - 60px*/
+        padding: 0 0 clamp(2.5rem, 4.7vw, 3.75rem);
+        margin: auto;
+        border-bottom: 1px solid #7d799c;
+    }
+    #cs-footer-104 .cs-li {
+        list-style: none;
+        text-align: center;
+        margin-bottom: 1.25rem;
+    }
+    #cs-footer-104 .cs-li:last-of-type {
+        margin-bottom: 0;
+    }
+    #cs-footer-104 .cs-link {
+        /* 16px - 20px */
+        font-size: clamp(1rem, 1.55vw, 1.25rem);
+        line-height: 1.5em;
+        text-decoration: none;
+        font-weight: 700;
+        color: var(--bodyTextColorWhite);
+        position: relative;
+    }
+    #cs-footer-104 .cs-link:hover:before {
+        width: 100%;
+    }
+    #cs-footer-104 .cs-link:before {
+        /* top right box */
+        content: "";
+        width: 0%;
+        height: 0.1875rem;
+        background: var(--bodyTextColorWhite);
+        opacity: 1;
+        position: absolute;
+        display: block;
+        bottom: -0.125rem;
+        left: 0;
+        transition: width 0.3s;
+    }
+    #cs-footer-104 .cs-copyright {
+        /* 14px - 16px */
+        font-size: clamp(0.875rem, 1.6vw, 1rem);
+        text-align: center;
+        color: #b4b2c7;
+        display: block;
+        /* 20px - 28px */
+        margin: clamp(1.25rem, 2.8vw, 1.75rem) auto 0;
+    }
+}
+/* Tablet - 600px */
+@media only screen and (min-width: 37.5rem) {
+    #cs-footer-104 .cs-ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cs-footer-104 .cs-li {
+        /* 44px - 88px */
+        margin: 0 clamp(2.75rem, 6.2vw, 5.5rem) 0 0;
+    }
+    #cs-footer-104 .cs-li:last-of-type {
+        margin: 0;
+    }
+}
+
+                
+/*-- -------------------------- -->
+<---          Banner            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #banner-1402 {
+        padding: var(--sectionPadding);
+        /* 190px - 268px */
+        padding-top: clamp(11.875rem, 25vw, 16.75rem);
+        padding-bottom: 6.25rem;
+        /* clips the line from causing overflow issues for going off screen */
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+    #banner-1402 .cs-container {
+        text-align: center;
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        /* 8px - 12px */
+        gap: clamp(0.5rem, 1vw, 0.75rem);
+    }
+    #banner-1402 .cs-int-title {
+        /* 39px - 61px */
+        font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+        font-weight: 900;
+        line-height: 1.2em;
+        text-align: inherit;
+        margin: 0;
+        color: var(--bodyTextColorWhite);
+        position: relative;
+    }
+    #banner-1402 .cs-breadcrumbs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #banner-1402 .cs-link {
+        font-size: 1rem;
+        line-height: 1.2em;
+        text-decoration: none;
+        color: var(--bodyTextColorWhite);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #banner-1402 .cs-link:last-of-type {
+        /* remove the chevron on the last list item */
+    }
+    #banner-1402 .cs-link:last-of-type::after {
+        display: none;
+    }
+    #banner-1402 .cs-link:after {
+        /* chevron */
+        content: "";
+        width: 0.4375rem;
+        height: 0.75rem;
+        margin: 0 1rem;
+        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/white-chev.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+    }
+    #banner-1402 .cs-link.cs-active {
+        color: #3270ff;
+    }
+    #banner-1402 .cs-background {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    #banner-1402 .cs-background:before {
+        /* gradient overlay */
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.4;
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    #banner-1402 .cs-background:after {
+        /* gradient overlay */
+        content: "";
+        width: 100%;
+        height: 40%;
+        background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#000000),
+            to(rgba(0, 0, 0, 0))
+        );
+        background: -o-linear-gradient(top, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(
+            to bottom,
+            #000000 0%,
+            rgba(0, 0, 0, 0) 100%
+        );
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    #banner-1402 .cs-background img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /* Makes img tag act as a background image */
+        object-fit: cover;
+    }
+}
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #banner-1402 .cs-background:before {
+        width: 50%;
+        height: 100%;
+        background: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            from(#000000),
+            to(rgba(0, 0, 0, 0))
+        );
+        background: -o-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(
+            to right,
+            #000000 0%,
+            rgba(0, 0, 0, 0) 100%
+        );
+        opacity: 1;
+    }
+}
