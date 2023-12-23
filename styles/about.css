@@ -165,7 +165,7 @@
 @media only screen and (min-width: 48rem) {
     #sbs-98 {
         /* we use margin here instead of padding because we want to create the space OUTSIDE the section.  The overflow on the section clips the boxes we made to make the slanted designs, so we need to push from the outside of the section with margin to create space between it and the next section.  If the section above this Stitch has a white background, add margin-top: 0. If it has a white section below it, add margin-bottom: 0. This will allow more proper spacing and not have too much empty space.  If both sections above and below this Stitch have white backgrounds, you can just remove this margin all together */
-        padding-top: 100px;
+        padding-top: 135px;
         margin-left: 0;
         margin-right: 0;
     }
